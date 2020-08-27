@@ -1,4 +1,4 @@
-makeCachMetrix <- function(x = numeric()){
+makeCachMetrix <- function(x = matrix()){
     m <- NULL
     set <- function(y){
         x <<- y
